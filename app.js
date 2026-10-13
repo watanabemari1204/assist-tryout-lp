@@ -168,9 +168,9 @@ function tryoutBody(){
  <section class="ty-sec blue" id="vision"><div class="ty-w"><h2 class="ty-h au">VISION<small>私たちの目指すもの</small></h2>
   <div class="ty-vs"><figure class="ty-fig"><img src="assets/ty_vision.jpg" alt="甲子園球場の全景" loading="lazy"><figcaption>仮の写真（差し替え予定）</figcaption></figure>
   <div class="ty-vt"><p class="ty-big">第二章は<br>ここから始まる</p>
-  <p class="ty-body">白球を追いかけた日々があった<br>仕事や家庭に追われてグラウンドから遠ざかった<br>それでも野球が好きな気持ちは消えていない。</p>
-  <p class="ty-body">アシストは軟式野球をもう一度楽しめる仲間と場所をつくります<br>経験もブランクも関係ありません<br>必要なのは もう一度やってみようという気持ちだけです。</p>
-  <p class="ty-body">主役だった人も 支える側だった人も<br>ここでは全員がチームを勝たせる一員です。</p></div></div></div></section>
+  <p class="ty-body">白球を追いかけた日々があった<br>仕事や家庭に追われて<br>グラウンドから遠ざかった<br>それでも野球が好きな気持ちは<br>消えていない</p>
+  <p class="ty-body">アシストは軟式野球を<br>もう一度楽しめる仲間と場所をつくります<br>経験もブランクも関係ありません<br>必要なのは<br>もう一度やってみようという気持ちだけ</p>
+  <p class="ty-body">主役だった人も支える側だった人も<br>ここでは全員がチームを勝たせる一員です</p></div></div></div></section>
  <section class="ty-band" aria-hidden="true"><img src="assets/ty_band.jpg" alt="" loading="lazy"><div class="ty-band-t au">PLAY BALL<small>白球を追う時間は まだ終わっていない</small></div></section>
  <section class="ty-sec" id="overview"><div class="ty-w"><h2 class="ty-h au">OVERVIEW<small>開催概要</small></h2>
   <table class="ty-tb">${rows.map(([k,v])=>`<tr><th>${k}</th><td>${nl(v)}</td></tr>`).join("")}</table>

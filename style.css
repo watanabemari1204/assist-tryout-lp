@@ -288,3 +288,6 @@ footer.site p a{display:inline-block;white-space:nowrap;margin:4px 10px}
   .ty-hero-in{padding-left:clamp(28px,8vw,72px);padding-right:clamp(28px,8vw,72px)}
   .ty-photo{height:clamp(260px,40vw,380px)}
 }
+
+/* ビジョンの文章：行ごとに改行済み。余計な折り返しで1〜2文字だけ次の行に落ちないようにする */
+.ty-body{word-break:keep-all;overflow-wrap:anywhere;line-break:strict;text-wrap:balance}
