@@ -168,9 +168,14 @@ function tryoutBody(){
  <section class="ty-sec blue" id="vision"><div class="ty-w"><h2 class="ty-h au">VISION<small>私たちの目指すもの</small></h2>
   <div class="ty-vs"><figure class="ty-fig"><img src="assets/ty_vision.jpg" alt="甲子園球場の全景" loading="lazy"><figcaption>仮の写真（差し替え予定）</figcaption></figure>
   <div class="ty-vt"><p class="ty-big">第二章は<br>ここから始まる</p>
-  <p class="ty-body">白球を追いかけた日々があった<br>仕事や家庭に追われて<br>グラウンドから遠ざかった<br>それでも野球が好きな気持ちは<br>消えていない</p>
-  <p class="ty-body">アシストは軟式野球を<br>もう一度楽しめる仲間と場所をつくります<br>経験もブランクも関係ありません<br>必要なのは<br>もう一度やってみようという気持ちだけ</p>
-  <p class="ty-body">主役だった人も支える側だった人も<br>ここでは全員がチームを勝たせる一員です</p></div></div></div></section>
+  <div class="ty-story">
+   <p class="ty-body">あの日グローブを置いたとき<br>またいつでもやれると思っていた<br>けれど「いつか」はなかなか来なかった</p>
+   <p class="ty-key">野球が嫌いになったわけじゃない<br>ただ戻る場所がなかっただけ</p>
+   <p class="ty-body">だからここにつくりました<br>やわらかい軟式のボールでも<br>仲間と追う白球の重みはあの頃のまま</p>
+   <p class="ty-body">野球には「<b>アシスト</b>」という記録がある<br>ボールを受けて次の仲間へつなぐプレー<br>目立たなくてもアウトは一人では取れない<br>ここでは全員がチームを支える一員</p>
+   <div class="ty-day"><div class="ty-day-n"><span class="au">12</span>月<span class="au">25</span>日</div><div class="ty-day-t">もう一度グラウンドに立つ日に</div></div>
+   <p class="ty-close">野球人生の第二章<br>その一歩を私たちに<b>アシスト</b>させてください</p>
+  </div></div></div></div></section>
  <section class="ty-band" aria-hidden="true"><img src="assets/ty_band.jpg" alt="" loading="lazy"><div class="ty-band-t au">PLAY BALL<small>白球を追う時間は まだ終わっていない</small></div></section>
  <section class="ty-sec" id="overview"><div class="ty-w"><h2 class="ty-h au">OVERVIEW<small>開催概要</small></h2>
   <table class="ty-tb">${rows.map(([k,v])=>`<tr><th>${k}</th><td>${nl(v)}</td></tr>`).join("")}</table>
@@ -183,7 +188,7 @@ function tryoutBody(){
  ${t.message?`<section class="ty-sec blue" id="message"><div class="ty-w"><h2 class="ty-h au">MESSAGE<small>メッセージ</small></h2><p class="ty-msg">${nl(t.message)}</p>${t.message_name?`<p class="ty-by">${esc2(t.message_name)}</p>`:""}</div></section>`:""}
  ${(t.faq||[]).length?`<section class="ty-sec" id="faq"><div class="ty-w"><h2 class="ty-h au">FAQ<small>よくある質問</small></h2>${t.faq.map(f=>`<details class="ty-q"><summary>${esc2(f.q)}</summary><p>${nl(f.a)}</p></details>`).join("")}</div></section>`:""}
  <section class="ty-sec blue" id="entry"><div class="ty-w narrow"><h2 class="ty-h au">ENTRY<small>エントリー</small></h2>
-  ${t.form_url?`<p class="ty-c">お申し込みはエントリーフォームから。担当者から折り返しご連絡します。</p><p class="ty-c"><a class="ty-btn gold" href="${esc2(tyFormUrl(t))}" target="_blank" rel="noopener">エントリーフォームを開く</a></p>${gform(t)}`:`<div class="ty-soon" style="border-color:#6f93ee;color:#dbe6ff">エントリーフォームは準備中です</div>`}
+  ${t.form_url?`<p class="ty-c">お申し込みは<br class="m">エントリーフォームからお願いいたします。<br>担当者から折り返しご連絡いたします。</p><p class="ty-c"><a class="ty-btn gold" href="${esc2(tyFormUrl(t))}" target="_blank" rel="noopener">エントリーフォームを開く</a></p>${gform(t)}`:`<div class="ty-soon" style="border-color:#6f93ee;color:#dbe6ff">エントリーフォームは準備中です</div>`}
   ${cta?`<p class="ty-c" style="margin-top:24px">${cta}</p>`:""}<p class="ty-pp" style="text-align:center;margin-top:22px">いただいた情報は、<a href="privacy.html">プライバシーポリシー</a>に基づきトライアウトのご連絡にのみ使用します。</p></div></section>
  <div class="ty-credit-w"><p class="ty-credit">写真（仮）：甲子園球場＝百楽兎／Wikimedia Commons（<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ja" target="_blank" rel="noopener">CC BY-SA 3.0</a>）・打者＝U.S. Marine Corps photo by Cpl. Stephen Campbell・練習風景＝U.S. Air Force photo by Nacho Anazawa（ともにパブリックドメイン）。トライアウト当日の写真ができ次第、差し替えます。</p></div>
  <a class="ty-float" href="${t.form_url?esc2(tyFormUrl(t)):"#entry"}" ${t.form_url?'target="_blank" rel="noopener"':""}>エントリー</a>`}
