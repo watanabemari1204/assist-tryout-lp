@@ -169,12 +169,11 @@ function tryoutBody(){
   <div class="ty-vs"><figure class="ty-fig"><img src="assets/ty_vision.jpg" alt="甲子園球場の全景" loading="lazy"><figcaption>仮の写真（差し替え予定）</figcaption></figure>
   <div class="ty-vt"><p class="ty-big">第二章は<br>ここから始まる</p>
   <div class="ty-story">
-   <p class="ty-body">あの日グローブを置いたとき<br>またいつでもやれると思っていた<br>けれど「いつか」はなかなか来なかった</p>
-   <p class="ty-key">野球が嫌いになったわけじゃない<br>ただ戻る場所がなかっただけ</p>
-   <p class="ty-body">だからここにつくりました<br>やわらかい軟式のボールでも<br>仲間と追う白球の重みはあの頃のまま</p>
-   <p class="ty-body">野球には「<b>アシスト</b>」という記録がある<br>ボールを受けて次の仲間へつなぐプレー<br>目立たなくてもアウトは一人では取れない<br>ここでは全員がチームを支える一員</p>
-   <div class="ty-day"><div class="ty-day-n"><span class="au">12</span>月<span class="au">25</span>日</div><div class="ty-day-t">もう一度グラウンドに立つ日に</div></div>
-   <p class="ty-close">野球人生の第二章<br>その一歩を私たちに<b>アシスト</b>させてください</p>
+   <p class="ty-body">白球を追いかけた日々があった。<br>仕事や家庭に追われて<br>グラウンドから遠ざかっていた日々もあった。</p>
+   <p class="ty-key">それでも野球が好きな気持ちは<br>全然消えてない。</p>
+   <p class="ty-key"><b>アシスト</b>は軟式野球を<br>もう一度楽しめる仲間と<br>場所を作ります！</p>
+   <p class="ty-body">経験もブランクも一切関係ありません。<br>必要なのは、もう一度やってみようという、<br>その熱い気持ちだけ。</p>
+   <p class="ty-close">主役だった人も、支える側だった人も、<br>ここでは全員がチームを勝たせる一員です。</p>
   </div></div></div></div></section>
  <section class="ty-band" aria-hidden="true"><img src="assets/ty_band.jpg" alt="" loading="lazy"><div class="ty-band-t au">PLAY BALL<small>白球を追う時間は まだ終わっていない</small></div></section>
  <section class="ty-sec" id="overview"><div class="ty-w"><h2 class="ty-h au">OVERVIEW<small>開催概要</small></h2>

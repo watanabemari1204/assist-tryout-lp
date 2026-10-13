@@ -320,3 +320,7 @@ footer.site p a{display:inline-block;white-space:nowrap;margin:4px 10px}
   .ty-vs{align-items:start}
   .ty-fig{position:sticky;top:96px}
 }
+
+.ty-story .ty-key b{color:#fff}
+.ty-story .ty-key+.ty-key{margin-top:-6px}
+.ty-story .ty-close{font-size:clamp(15px,4.4vw,20px);line-height:2.05}
