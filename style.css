@@ -279,3 +279,12 @@ html{-webkit-text-size-adjust:100%}
   .ty-photo{margin-top:-6px}
 }
 footer.site p a{display:inline-block;white-space:nowrap;margin:4px 10px}
+@media(max-width:900px){
+  .ty-hero{align-items:stretch}
+  .ty-hero-in,.ty-photo{width:100%;box-sizing:border-box}
+  .ty-hero-in{max-width:none}
+}
+@media(min-width:600px) and (max-width:900px){
+  .ty-hero-in{padding-left:clamp(28px,8vw,72px);padding-right:clamp(28px,8vw,72px)}
+  .ty-photo{height:clamp(260px,40vw,380px)}
+}
