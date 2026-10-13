@@ -295,3 +295,6 @@ footer.site p a{display:inline-block;white-space:nowrap;margin:4px 10px}
 
 .ty-c br.m{display:none}
 @media(max-width:900px){.ty-c br.m{display:inline}}
+
+/* ビジョン：この1か所だけ金色の大きい文字（左の線なし） */
+.ty-vt .ty-key{font-size:clamp(18px,5.4vw,28px);line-height:1.75;font-weight:900;color:var(--sand);letter-spacing:.04em;margin:0 0 20px;text-wrap:balance}

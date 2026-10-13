@@ -169,7 +169,7 @@ function tryoutBody(){
   <div class="ty-vs"><figure class="ty-fig"><img src="assets/ty_vision.jpg" alt="甲子園球場の全景" loading="lazy"><figcaption>仮の写真（差し替え予定）</figcaption></figure>
   <div class="ty-vt"><p class="ty-big">第二章は<br>ここから始まる</p>
   <p class="ty-body">白球を追いかけた日々があった。<br>仕事や家庭に追われて<br>グラウンドから遠ざかっていた日々もあった。</p>
-   <p class="ty-body">それでも野球が好きな気持ちは<br>全然消えてない。</p>
+   <p class="ty-key">それでも野球が好きな気持ちは<br>全然消えてない。</p>
    <p class="ty-body">アシストは軟式野球を<br>もう一度楽しめる仲間と<br>場所を作ります！</p>
    <p class="ty-body">経験もブランクも一切関係ありません。<br>必要なのは、もう一度やってみようという、<br>その熱い気持ちだけ。</p>
    <p class="ty-body">主役だった人も、支える側だった人も、<br>ここでは全員がチームを勝たせる一員です。</p></div></div></div></section>
